@@ -26,7 +26,7 @@ $u = new Usuario;
                     <i class="far fa-envelope"></i>
                 </div>
                 <div class="campos">
-                    <input type="password" placeholder="Password" class="input" name="senha">
+                    <input type="password" placeholder="Senha" class="input" name="senha">
                     <i class="fas fa-lock"></i>
                 </div>
                 <div class="cadastre">
@@ -53,7 +53,7 @@ $u = new Usuario;
             {
                 if($u->logar($email, $senha))
                 {
-                    header("location:https://netflix-app-theta.vercel.app/");
+                    header("location:index.html");
                 }
                 else
                 {
